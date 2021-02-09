@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sample_OiTi_Android</string>
+    <string name="main_title">Selecione uma opção</string>
+    <string name="logo_description">imagem de logo</string>
+    <string name="face_icon_description">icone de scan facial</string>
+    <string name="biometria_button_text">Nam dapibus nisl vitae elit</string>
+    <string name="biometria_title_text">Biometria</string>
+</resources>
