@@ -5,4 +5,9 @@
     <string name="face_icon_description">icone de scan facial</string>
     <string name="biometria_button_text">Nam dapibus nisl vitae elit</string>
     <string name="biometria_title_text">Biometria</string>
+    <string name="camera_access_title">Acesso à camera</string>
+    <string name="camera_access_text">O App utiliza o acesso à câmera somente no momento da verificação biométrica ou para verificação de documentos.</string>
+    <string name="camera_access_button_text">LIBERAR O ACESSO</string>
+    <string name="back_button_description">botão voltar</string>
+    <string name="back_button_text">VOLTAR</string>
 </resources>
