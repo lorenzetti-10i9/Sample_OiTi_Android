@@ -22,10 +22,10 @@ class PermissionActivity : AppCompatActivity() {
         setTheme(R.style.Theme_Sample_OiTi_Android)
         setContentView(R.layout.permission_activity)
 
-        val backButton = findViewById<ImageButton>(R.id.backButton)
+        val backButton = findViewById<ImageButton>(R.id.back_button)
         backButton.setOnClickListener { finish() }
 
-        val permissionButton = findViewById<Button>(R.id.permissionButton)
+        val permissionButton = findViewById<Button>(R.id.permission_button)
         permissionButton.setOnClickListener { onPermissionButtonPressed() }
 
     }

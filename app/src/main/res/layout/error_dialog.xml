@@ -14,21 +14,21 @@
         android:fontFamily="@font/gotham_bold"
         android:insetTop="0dp"
         android:insetBottom="0dp"
-        android:shadowColor="#5b46b85b"
+        android:shadowColor="@color/greenish_36"
         android:shadowDy="12"
         android:shadowRadius="5"
         android:text="@string/retry_button_text"
         android:textColor="@android:color/white"
         android:textSize="12sp"
-        app:backgroundTint="#4bb75f"
+        app:backgroundTint="@color/algae"
         app:cornerRadius="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/dialog_text" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/dialog_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -39,33 +39,33 @@
         app:srcCompat="@drawable/error_dialog_icon" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/dialog_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
         android:fontFamily="@font/gotham_book"
         android:gravity="center"
         android:text="@string/error_dialog_text"
-        android:textColor="#363636"
+        android:textColor="@color/brownish_grey"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_title"
         app:layout_constraintWidth_percent="0.7" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/dialog_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="27dp"
         android:fontFamily="@font/gotham_bold"
         android:gravity="center"
         android:text="@string/error_dialog_title"
-        android:textColor="#363636"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/dialog_image" />
 </androidx.constraintlayout.widget.ConstraintLayout>
