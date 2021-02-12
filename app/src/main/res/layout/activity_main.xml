@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/gotham_bold"
         android:text="@string/main_title"
-        android:textColor="#363636"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.2" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/oiti_logo"
         android:layout_width="29dp"
         android:layout_height="36dp"
         android:layout_marginTop="24dp"
@@ -63,7 +63,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/biometria_button_icon"
             android:layout_width="37dp"
             android:layout_height="37dp"
             android:layout_marginStart="30dp"
@@ -78,7 +78,7 @@
             app:srcCompat="@drawable/face_icon" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/biometria_button_title"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginStart="32dp"
@@ -86,26 +86,26 @@
             android:layout_marginTop="20dp"
             android:fontFamily="@font/gotham_bold"
             android:text="@string/biometria_title_text"
-            android:textColor="#363636"
+            android:textColor="@color/black"
             android:textSize="16sp"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/biometria_button_icon"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/biometria_button_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
             android:fontFamily="@font/gotham_book"
             android:text="@string/biometria_button_text"
-            android:textColor="#5a5a5a"
+            android:textColor="@color/brownish_grey"
             android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-            app:layout_constraintStart_toEndOf="@+id/imageView2" />
+            app:layout_constraintBottom_toBottomOf="@+id/biometria_button_icon"
+            app:layout_constraintStart_toEndOf="@+id/biometria_button_icon" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/chevron_image"
             android:layout_width="6dp"
             android:layout_height="11dp"
             android:layout_marginEnd="26dp"
