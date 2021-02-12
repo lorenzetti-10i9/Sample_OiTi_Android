@@ -21,9 +21,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onBiometriaButtonPressed() {
-        val permissionStatus = ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
-        if (permissionStatus != PackageManager.PERMISSION_GRANTED) {
-            startActivity(Intent(this, PermissionActivity::class.java))
-        }
+//        val permissionStatus = ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
+//        if (permissionStatus != PackageManager.PERMISSION_GRANTED) {
+//            startActivity(Intent(this, PermissionActivity::class.java))
+//        }
+        val errorDialog = ErrorDialog()
+        errorDialog.show(supportFragmentManager, "errorDialog")
+
     }
 }

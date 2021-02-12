@@ -10,4 +10,10 @@
     <string name="camera_access_button_text">LIBERAR O ACESSO</string>
     <string name="back_button_description">botão voltar</string>
     <string name="back_button_text">VOLTAR</string>
+    <string name="ok_icon_description">ícone de ok</string>
+    <string name="ok_dialog_text">Verificação concluída!</string>
+    <string name="error_icon_description">ícone de erro</string>
+    <string name="error_dialog_text">Não conseguimos captar seu movimento.</string>
+    <string name="retry_button_text">TENTAR NOVAMENTE</string>
+    <string name="error_dialog_title">Ops!</string>
 </resources>
