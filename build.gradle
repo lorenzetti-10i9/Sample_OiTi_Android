@@ -16,9 +16,11 @@ buildscript {
 
 allprojects {
     repositories {
+//        maven { url "https://raw.githubusercontent.com/oititec/liveness-android-sdk/custom_view/" }
         google()
         jcenter()
-    }
+        maven { url "https://raw.githubusercontent.com/lorenzetti-10i9/liveness-android-custom-view-sdk/main/" }
+   }
 }
 
 task clean(type: Delete) {
